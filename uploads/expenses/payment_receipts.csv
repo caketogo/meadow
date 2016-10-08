@@ -1,0 +1,13 @@
+S.No	date incurred	description	payment method	amount excluding vat	vat	amount including vat
+1	07/08/2016	test for the expenses section.,...	card	105	500	14	
+2	07/19/2016	sample one.....	cash	400	66	11	
+3	07/07/2016	Payment of employees<br />
+A was paid £100<br />
+b was paid £100<br />
+c was paid £100<br />
+d was paid £100<br />
+	cash	100	20	120	
+4	07/06/2016	Petrol	Cash	100	10	110	
+5	07/13/2016	Wages	Cash	100	0	100	
+6	06/07/2016	Salary	Cash	100	0	100	
+7	29/07/2016	Payroll	Bank	100	0	100	
