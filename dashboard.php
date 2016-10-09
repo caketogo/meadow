@@ -21,12 +21,14 @@
 	
 	$ResultCountPayments 	= $objsiteadmin->GetCountPayments();			
 	$ResultCountSMSsent 	= $objsiteadmin->GetCountSMSsent();				
-	
-/*	echo '<pre>';
-	print_r($ResultCountOverDueContainers);
-	exit;*/
+	/**
+	echo '<pre>';
+	print_r($ContainersDetails);
+	exit;
+    **/
 	
 	$objSmarty->assign("ContainersDetails",$ContainersDetails);
+
 	
 	$objSmarty->assign("ResultCountOverDueContainers",$ResultCountOverDueContainers['overdue_count']);
 	$objSmarty->assign("ResultCountLockedContainers",$ResultCountLockedContainers);	
